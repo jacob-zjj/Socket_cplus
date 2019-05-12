@@ -1,0 +1,9 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(367,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(368,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  Client.cpp
+f:\c++网络编程\第二章\hellosocket\easytcpclient\client.cpp(1): warning C4005: “WIN32_LEAN_AND_MEAN”: 宏重定义
+  f:\c++网络编程\第二章\hellosocket\easytcpclient\client.cpp(1): note: 命令行参数: 参见前面的“WIN32_LEAN_AND_MEAN”定义
+f:\c++网络编程\第二章\hellosocket\easytcpclient\client.cpp(50): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1270): note: 参见“scanf”的声明
+  EasyTcpClient.vcxproj -> F:\C++网络编程\第二章\HelloSocket\../bin/Win32/Debug\EasyTcpClient.exe
+  EasyTcpClient.vcxproj -> F:\C++网络编程\第二章\HelloSocket\../bin/Win32/Debug\EasyTcpClient.pdb (Full PDB)
