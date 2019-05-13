@@ -1,0 +1,5 @@
+﻿  server.cpp
+f:\c++网络编程\第二章\hellosocket\easytcpserver\server.cpp(2): warning C4005: “_WINSOCK_DEPRECATED_NO_WARNINGS”: 宏重定义
+  f:\c++网络编程\第二章\hellosocket\easytcpserver\server.cpp(2): note: 命令行参数: 参见前面的“_WINSOCK_DEPRECATED_NO_WARNINGS”定义
+  EasyTcpServer.vcxproj -> F:\C++网络编程\第二章\HelloSocket\Debug\EasyTcpServer.exe
+  EasyTcpServer.vcxproj -> F:\C++网络编程\第二章\HelloSocket\Debug\EasyTcpServer.pdb (Full PDB)
