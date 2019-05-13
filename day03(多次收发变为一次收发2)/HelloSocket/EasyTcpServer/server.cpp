@@ -39,6 +39,7 @@ struct LoginResult : public DataHeader
 	{
 		dataLength = sizeof(LoginResult);
 		cmd = CMD_LOGIN_RESULT;
+		//默认初始化为0 
 		result = 0;
 	}
 	int result;
@@ -58,6 +59,7 @@ struct LoginOutResult : public DataHeader
 	{
 		dataLength = sizeof(LoginOutResult);
 		cmd = CMD_LOGINOUT_RESULT;
+		//默认初始化为0
 		result = 0;
 	}
 	int result;

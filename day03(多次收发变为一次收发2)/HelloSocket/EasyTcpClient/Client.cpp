@@ -109,6 +109,7 @@ int main()
 		}
 		else if (0 == strcmp(cmdBuf, "login"))
 		{
+			// 当创建Login这种类型时就已经实例化了cmd等信息
 			Login login;
 			strcpy(login.userName, "zjj");
 			strcpy(login.PassWord, "969513");
