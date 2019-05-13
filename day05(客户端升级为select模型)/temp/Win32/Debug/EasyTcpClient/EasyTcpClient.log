@@ -1,0 +1,20 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(367,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(368,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  Client.cpp
+f:\c++网络编程\day04(客户端升级为select模型)\hellosocket\easytcpclient\client.cpp(1): warning C4005: “WIN32_LEAN_AND_MEAN”: 宏重定义
+  f:\c++网络编程\day04(客户端升级为select模型)\hellosocket\easytcpclient\client.cpp(1): note: 命令行参数: 参见前面的“WIN32_LEAN_AND_MEAN”定义
+f:\c++网络编程\day04(客户端升级为select模型)\hellosocket\easytcpclient\client.cpp(86): warning C4474: printf: 格式字符串中传递的参数太多
+  f:\c++网络编程\day04(客户端升级为select模型)\hellosocket\easytcpclient\client.cpp(86): note: 占位符和其参数预计 0 可变参数，但提供的却是 1 参数
+f:\c++网络编程\day04(客户端升级为select模型)\hellosocket\easytcpclient\client.cpp(100): warning C4474: printf: 格式字符串中传递的参数太多
+  f:\c++网络编程\day04(客户端升级为select模型)\hellosocket\easytcpclient\client.cpp(100): note: 占位符和其参数预计 1 可变参数，但提供的却是 2 参数
+f:\c++网络编程\day04(客户端升级为select模型)\hellosocket\easytcpclient\client.cpp(107): warning C4474: printf: 格式字符串中传递的参数太多
+  f:\c++网络编程\day04(客户端升级为select模型)\hellosocket\easytcpclient\client.cpp(107): note: 占位符和其参数预计 1 可变参数，但提供的却是 2 参数
+f:\c++网络编程\day04(客户端升级为select模型)\hellosocket\easytcpclient\client.cpp(114): warning C4474: printf: 格式字符串中传递的参数太多
+  f:\c++网络编程\day04(客户端升级为select模型)\hellosocket\easytcpclient\client.cpp(114): note: 占位符和其参数预计 1 可变参数，但提供的却是 2 参数
+f:\c++网络编程\day04(客户端升级为select模型)\hellosocket\easytcpclient\client.cpp(178): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+f:\c++网络编程\day04(客户端升级为select模型)\hellosocket\easytcpclient\client.cpp(179): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+f:\c++网络编程\day04(客户端升级为select模型)\hellosocket\easytcpclient\client.cpp(118): warning C4715: “processor”: 不是所有的控件路径都返回值
+  EasyTcpClient.vcxproj -> F:\C++网络编程\day04(客户端升级为select模型)\HelloSocket\../bin/Win32/Debug\EasyTcpClient.exe
+  EasyTcpClient.vcxproj -> F:\C++网络编程\day04(客户端升级为select模型)\HelloSocket\../bin/Win32/Debug\EasyTcpClient.pdb (Full PDB)
