@@ -116,6 +116,7 @@ int main()
 	//char _recvBuf[128] = {};//接收缓冲区
 	while (true)
 	{
+		//使用header来接受客户端传过来的命令数据 通过命令判断客户端的需求
 		DataHeader header = {};
 		//5 接收客户端请求数据
 		int nLen = recv(_cSocket, (char*)&header, sizeof(DataHeader), 0);
