@@ -12,9 +12,17 @@ int main()
 {
 	/*启动Windows socket 2.x环境*/
 	//版本号
+	/*
+	socket编程中：
+	声明调用不同的Winsock版本。例如MAKEWORD(2,2)就是调用2.2版，MAKEWORD(1,1)就是调用1.1版。
+	不同版本是有区别的，例如1.1版只支持TCP/IP协议，而2.0版可以支持多协议。2.0版有良好的向
+	后兼容性，任何使用1.1版的源代码、二进制文件、应用程序都可以不加修改地在2.0规范下使用。
+	此外winsock 2.0支持异步 1.1不支持异步.
+	*/
 	WORD ver = MAKEWORD(2, 2);
+	/*WSADATA，一种数据结构。这个结构被用来存储被WSAStartup函数调用后返回的Windows Sockets数据。它包含Winsock.dll执行的数据。*/
 	WSADATA dat;
-	//socket网络编程启动函数
+	//socket网络编程启动函数 启动服务器
 	WSAStartup(ver, &dat);
 	//---------------------------
 	//--用Socket API建立简易TCP服务端
@@ -27,6 +35,7 @@ int main()
 	//IPV4的网络套接字 AF_INET
 	//IPV6的网络套接字 AF_INET6
 	SOCKET _sock =  socket(AF_INET, SOCK_STREAM, IPPROTO_TCP);
+	//IPPROTO_TCP 使用TCP协议
 
 	//2、bind 绑定用于接收客户端链接的网络端口
 	/*
@@ -56,6 +65,7 @@ int main()
 	_In_ SOCKET s,
 	_In_ int backlog
 	);*/
+	//5 代表的是接口最多5个客户端可与服务器进行连接
 	if (SOCKET_ERROR == listen(_sock, 5))
 	{
 		printf("错误，监听网络端口失败...\n");
@@ -75,7 +85,7 @@ int main()
 	sockaddr_in clientAddr = {};//客户端地址
 	int nAddrLen = sizeof(sockaddr_in);//地址长度
 	SOCKET _cSocket = INVALID_SOCKET;
-	char msgBuf[] = "Hello, I'm Server.";
+	//char msgBuf[] = "Hello, I'm Server.";
 	_cSocket = accept(_sock, (sockaddr*)&clientAddr, &nAddrLen);
 	if (INVALID_SOCKET == _cSocket)
 	{
@@ -87,6 +97,13 @@ int main()
 	while (true)
 	{
 		//5 接收客户端请求数据
+		/*recv(
+			_In_ SOCKET s,
+			_Out_writes_bytes_to_(len, return) __out_data_source(NETWORK) char FAR * buf,
+			_In_ int len,
+			_In_ int flags
+		);*/
+		//以128长度来接受
 		int nLen = recv(_cSocket, _recvBuf, 128, 0);
 		if (nLen <= 0)
 		{
@@ -99,6 +116,7 @@ int main()
 		{
 			//7 send 向客户端发送一条数据
 			char msgBuf[] = "xiao qiang.";
+			//加1的目的是为了将字符串的末尾一并加入 方便客户端进行字符串长度的计算
 			send(_cSocket, msgBuf, strlen(msgBuf) + 1, 0);
 		}
 		else if(0 == strcmp(_recvBuf, "getAge"))
