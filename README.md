@@ -16,3 +16,7 @@ c++网络编程具体要点包括：
 6、为客户端引入线程 客户端具备输入功能
 
 7、Client可 跨linxu和mac os使用  将linux上面客户端与windows上的服务器相连接
+
+8、将其他平台作为客户端 将linux作为服务端 使用windows客户端访问linux服务端
+
+
