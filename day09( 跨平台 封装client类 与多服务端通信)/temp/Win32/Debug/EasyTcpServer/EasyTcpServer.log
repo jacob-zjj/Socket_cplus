@@ -1,0 +1,7 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(367,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(368,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  server.cpp
+f:\c++网络编程\day09( 跨平台 封装client类 与多服务端通信)\hellosocket\easytcpserver\server.cpp(2): warning C4005: “_WINSOCK_DEPRECATED_NO_WARNINGS”: 宏重定义
+  f:\c++网络编程\day09( 跨平台 封装client类 与多服务端通信)\hellosocket\easytcpserver\server.cpp(2): note: 命令行参数: 参见前面的“_WINSOCK_DEPRECATED_NO_WARNINGS”定义
+  EasyTcpServer.vcxproj -> F:\C++网络编程\day09( 跨平台 封装client类 与多服务端通信)\HelloSocket\../bin/Win32/Debug\EasyTcpServer.exe
+  EasyTcpServer.vcxproj -> F:\C++网络编程\day09( 跨平台 封装client类 与多服务端通信)\HelloSocket\../bin/Win32/Debug\EasyTcpServer.pdb (Full PDB)
