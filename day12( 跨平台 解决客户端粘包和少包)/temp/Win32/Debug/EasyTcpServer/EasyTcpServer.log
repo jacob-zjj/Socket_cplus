@@ -1,0 +1,4 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(367,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(368,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  EasyTcpServer.vcxproj -> F:\C++网络编程\day12( 跨平台)\HelloSocket\../bin/Win32/Debug\EasyTcpServer.exe
+  EasyTcpServer.vcxproj -> F:\C++网络编程\day12( 跨平台)\HelloSocket\../bin/Win32/Debug\EasyTcpServer.pdb (Full PDB)
