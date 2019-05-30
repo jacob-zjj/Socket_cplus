@@ -1,0 +1,59 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(367,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(368,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  server.cpp
+f:\c++网络编程\day18( select模型接收数据性能瓶颈与优化）\hellosocket\easytcpserver\EasyTcpServer.hpp(5): warning C4005: “_WINSOCK_DEPRECATED_NO_WARNINGS”: 宏重定义
+  f:\c++网络编程\day18( select模型接收数据性能瓶颈与优化）\hellosocket\easytcpserver\EasyTcpServer.hpp(5): note: 命令行参数: 参见前面的“_WINSOCK_DEPRECATED_NO_WARNINGS”定义
+f:\c++网络编程\day18( select模型接收数据性能瓶颈与优化）\hellosocket\easytcpserver\EasyTcpServer.hpp(190): warning C4018: “<”: 有符号/无符号不匹配
+f:\c++网络编程\day18( select模型接收数据性能瓶颈与优化）\hellosocket\easytcpserver\EasyTcpServer.hpp(192): error C2039: “find”: 不是“std::vector<ClientSocket *,std::allocator<_Ty>>”的成员
+          with
+          [
+              _Ty=ClientSocket *
+          ]
+  f:\c++网络编程\day18( select模型接收数据性能瓶颈与优化）\hellosocket\easytcpserver\EasyTcpServer.hpp(333): note: 参见“std::vector<ClientSocket *,std::allocator<_Ty>>”的声明
+          with
+          [
+              _Ty=ClientSocket *
+          ]
+f:\c++网络编程\day18( select模型接收数据性能瓶颈与优化）\hellosocket\easytcpserver\EasyTcpServer.hpp(193): error C3536: “iter”: 初始化之前无法使用
+f:\c++网络编程\day18( select模型接收数据性能瓶颈与优化）\hellosocket\easytcpserver\EasyTcpServer.hpp(193): error C2678: 二进制“!=”: 没有找到接受“int”类型的左操作数的运算符(或没有可接受的转换)
+  C:\Program Files (x86)\Windows Kits\8.1\Include\shared\guiddef.h(197): note: 可能是“bool operator !=(const GUID &,const GUID &)”
+  D:\visio studio install\VC\include\exception(344): note: 或    “bool std::operator !=(const std::exception_ptr &,const std::exception_ptr &) throw()”[使用参数相关的查找找到]
+  D:\visio studio install\VC\include\exception(349): note: 或    “bool std::operator !=(std::nullptr_t,const std::exception_ptr &) throw()”[使用参数相关的查找找到]
+  D:\visio studio install\VC\include\exception(354): note: 或    “bool std::operator !=(const std::exception_ptr &,std::nullptr_t) throw()”[使用参数相关的查找找到]
+  D:\visio studio install\VC\include\thread(219): note: 或    “bool std::operator !=(std::thread::id,std::thread::id) noexcept”[使用参数相关的查找找到]
+  D:\visio studio install\VC\include\system_error(398): note: 或    “bool std::operator !=(const std::error_code &,const std::error_code &) noexcept”[使用参数相关的查找找到]
+  D:\visio studio install\VC\include\system_error(405): note: 或    “bool std::operator !=(const std::error_code &,const std::error_condition &) noexcept”[使用参数相关的查找找到]
+  D:\visio studio install\VC\include\system_error(412): note: 或    “bool std::operator !=(const std::error_condition &,const std::error_code &) noexcept”[使用参数相关的查找找到]
+  D:\visio studio install\VC\include\system_error(419): note: 或    “bool std::operator !=(const std::error_condition &,const std::error_condition &) noexcept”[使用参数相关的查找找到]
+  f:\c++网络编程\day18( select模型接收数据性能瓶颈与优化）\hellosocket\easytcpserver\EasyTcpServer.hpp(193): note: 尝试匹配参数列表“(int, std::_Vector_iterator<std::_Vector_val<std::_Simple_types<ClientSocket *>>>)”时
+f:\c++网络编程\day18( select模型接收数据性能瓶颈与优化）\hellosocket\easytcpserver\EasyTcpServer.hpp(195): error C2227: “->second”的左边必须指向类/结构/联合/泛型类型
+  f:\c++网络编程\day18( select模型接收数据性能瓶颈与优化）\hellosocket\easytcpserver\EasyTcpServer.hpp(195): note: 类型是“int”
+f:\c++网络编程\day18( select模型接收数据性能瓶颈与优化）\hellosocket\easytcpserver\EasyTcpServer.hpp(199): error C2227: “->second”的左边必须指向类/结构/联合/泛型类型
+  f:\c++网络编程\day18( select模型接收数据性能瓶颈与优化）\hellosocket\easytcpserver\EasyTcpServer.hpp(199): note: 类型是“int”
+f:\c++网络编程\day18( select模型接收数据性能瓶颈与优化）\hellosocket\easytcpserver\EasyTcpServer.hpp(202): error C2227: “->first”的左边必须指向类/结构/联合/泛型类型
+  f:\c++网络编程\day18( select模型接收数据性能瓶颈与优化）\hellosocket\easytcpserver\EasyTcpServer.hpp(202): note: 类型是“int”
+f:\c++网络编程\day18( select模型接收数据性能瓶颈与优化）\hellosocket\easytcpserver\EasyTcpServer.hpp(349): error C2143: 语法错误: 缺少“;”(在“<”的前面)
+f:\c++网络编程\day18( select模型接收数据性能瓶颈与优化）\hellosocket\easytcpserver\EasyTcpServer.hpp(349): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+f:\c++网络编程\day18( select模型接收数据性能瓶颈与优化）\hellosocket\easytcpserver\EasyTcpServer.hpp(349): error C2238: 意外的标记位于“;”之前
+f:\c++网络编程\day18( select模型接收数据性能瓶颈与优化）\hellosocket\easytcpserver\EasyTcpServer.hpp(495): error C2065: “_cellServers”: 未声明的标识符
+f:\c++网络编程\day18( select模型接收数据性能瓶颈与优化）\hellosocket\easytcpserver\EasyTcpServer.hpp(496): error C2065: “_cellServers”: 未声明的标识符
+f:\c++网络编程\day18( select模型接收数据性能瓶颈与优化）\hellosocket\easytcpserver\EasyTcpServer.hpp(496): error C3312: 未找到可调用的“begin”函数(针对类型“unknown-type”)
+f:\c++网络编程\day18( select模型接收数据性能瓶颈与优化）\hellosocket\easytcpserver\EasyTcpServer.hpp(496): error C3312: 未找到可调用的“end”函数(针对类型“unknown-type”)
+f:\c++网络编程\day18( select模型接收数据性能瓶颈与优化）\hellosocket\easytcpserver\EasyTcpServer.hpp(498): error C3536: “pMinServer”: 初始化之前无法使用
+f:\c++网络编程\day18( select模型接收数据性能瓶颈与优化）\hellosocket\easytcpserver\EasyTcpServer.hpp(498): error C2227: “->getClientCount”的左边必须指向类/结构/联合/泛型类型
+  f:\c++网络编程\day18( select模型接收数据性能瓶颈与优化）\hellosocket\easytcpserver\EasyTcpServer.hpp(498): note: 类型是“int”
+f:\c++网络编程\day18( select模型接收数据性能瓶颈与优化）\hellosocket\easytcpserver\EasyTcpServer.hpp(498): error C2065: “pCellServer”: 未声明的标识符
+f:\c++网络编程\day18( select模型接收数据性能瓶颈与优化）\hellosocket\easytcpserver\EasyTcpServer.hpp(500): error C2065: “pCellServer”: 未声明的标识符
+f:\c++网络编程\day18( select模型接收数据性能瓶颈与优化）\hellosocket\easytcpserver\EasyTcpServer.hpp(503): error C2227: “->addClient”的左边必须指向类/结构/联合/泛型类型
+  f:\c++网络编程\day18( select模型接收数据性能瓶颈与优化）\hellosocket\easytcpserver\EasyTcpServer.hpp(503): note: 类型是“int”
+f:\c++网络编程\day18( select模型接收数据性能瓶颈与优化）\hellosocket\easytcpserver\EasyTcpServer.hpp(512): error C2065: “_cellServers”: 未声明的标识符
+f:\c++网络编程\day18( select模型接收数据性能瓶颈与优化）\hellosocket\easytcpserver\EasyTcpServer.hpp(512): error C2228: “.push_back”的左边必须有类/结构/联合
+  f:\c++网络编程\day18( select模型接收数据性能瓶颈与优化）\hellosocket\easytcpserver\EasyTcpServer.hpp(512): note: 类型是“unknown-type”
+f:\c++网络编程\day18( select模型接收数据性能瓶颈与优化）\hellosocket\easytcpserver\EasyTcpServer.hpp(583): error C2065: “_cellServers”: 未声明的标识符
+f:\c++网络编程\day18( select模型接收数据性能瓶颈与优化）\hellosocket\easytcpserver\EasyTcpServer.hpp(583): error C2228: “.size”的左边必须有类/结构/联合
+  f:\c++网络编程\day18( select模型接收数据性能瓶颈与优化）\hellosocket\easytcpserver\EasyTcpServer.hpp(583): note: 类型是“unknown-type”
+f:\c++网络编程\day18( select模型接收数据性能瓶颈与优化）\hellosocket\easytcpserver\EasyTcpServer.hpp(583): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“double”
+f:\c++网络编程\day18( select模型接收数据性能瓶颈与优化）\hellosocket\easytcpserver\EasyTcpServer.hpp(583): warning C4477: “printf”: 格式字符串“%lf”需要类型“double”的参数，但可变参数 2 拥有了类型“SOCKET”
+f:\c++网络编程\day18( select模型接收数据性能瓶颈与优化）\hellosocket\easytcpserver\EasyTcpServer.hpp(583): warning C4473: “printf”: 没有为格式字符串传递足够的参数
+  f:\c++网络编程\day18( select模型接收数据性能瓶颈与优化）\hellosocket\easytcpserver\EasyTcpServer.hpp(583): note: 占位符和其参数预计 5 可变参数，但提供的却是 4 参数
+  f:\c++网络编程\day18( select模型接收数据性能瓶颈与优化）\hellosocket\easytcpserver\EasyTcpServer.hpp(583): note: 缺失的可变参数 5 为格式字符串“%d”所需
