@@ -1,0 +1,9 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(367,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(368,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  server.cpp
+f:\c++网络编程\day19( socket api极限测试 添加rev和send计数）\hellosocket\easytcpserver\easytcpserver.hpp(5): warning C4005: “_WINSOCK_DEPRECATED_NO_WARNINGS”: 宏重定义
+  f:\c++网络编程\day19( socket api极限测试 添加rev和send计数）\hellosocket\easytcpserver\easytcpserver.hpp(5): note: 命令行参数: 参见前面的“_WINSOCK_DEPRECATED_NO_WARNINGS”定义
+f:\c++网络编程\day19( socket api极限测试 添加rev和send计数）\hellosocket\easytcpserver\easytcpserver.hpp(193): warning C4018: “<”: 有符号/无符号不匹配
+f:\c++网络编程\day19( socket api极限测试 添加rev和send计数）\hellosocket\easytcpserver\easytcpserver.hpp(235): warning C4715: “CellServer::OnRun”: 不是所有的控件路径都返回值
+  EasyTcpServer.vcxproj -> F:\C++网络编程\day19( Socket API极限测试 添加rev和send计数）\HelloSocket\../bin/Win32/Debug\EasyTcpServer.exe
+  EasyTcpServer.vcxproj -> F:\C++网络编程\day19( Socket API极限测试 添加rev和send计数）\HelloSocket\../bin/Win32/Debug\EasyTcpServer.pdb (Full PDB)
