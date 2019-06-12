@@ -1,0 +1,2 @@
+#TargetFrameworkVersion=v4.0:PlatformToolSet=v140:EnableManagedIncrementalBuild=false:VCToolArchitecture=Native32Bit:WindowsTargetPlatformVersion=8.1
+Release|Win32|F:\C++网络编程\day19( Socket API极限测试 添加rev和send计数）\HelloSocket\|

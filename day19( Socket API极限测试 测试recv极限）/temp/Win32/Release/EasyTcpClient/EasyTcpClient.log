@@ -1,0 +1,13 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(367,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(368,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  Client.cpp
+f:\c++网络编程\day19( socket api极限测试 添加rev和send计数）\hellosocket\easytcpclient\EasyTcpClient.hpp(5): warning C4005: “WIN32_LEAN_AND_MEAN”: 宏重定义
+  f:\c++网络编程\day19( socket api极限测试 添加rev和send计数）\hellosocket\easytcpclient\EasyTcpClient.hpp(5): note: 命令行参数: 参见前面的“WIN32_LEAN_AND_MEAN”定义
+Client.cpp(110): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 4 拥有了类型“std::atomic_int”
+  正在生成代码
+  2 of 189 functions ( 1.1%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  EasyTcpClient.vcxproj -> F:\C++网络编程\day19( Socket API极限测试 添加rev和send计数）\HelloSocket\../bin/Win32/Release\EasyTcpClient.exe
+  EasyTcpClient.vcxproj -> F:\C++网络编程\day19( Socket API极限测试 添加rev和send计数）\HelloSocket\../bin/Win32/Release\EasyTcpClient.pdb (Full PDB)
