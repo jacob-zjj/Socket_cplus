@@ -1,0 +1,35 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(367,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(368,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  server.cpp
+f:\c++网络编程\day17( 多线程经典设计模式)\hellosocket\easytcpserver\EasyTcpServer.hpp(5): warning C4005: “_WINSOCK_DEPRECATED_NO_WARNINGS”: 宏重定义
+  f:\c++网络编程\day17( 多线程经典设计模式)\hellosocket\easytcpserver\EasyTcpServer.hpp(5): note: 命令行参数: 参见前面的“_WINSOCK_DEPRECATED_NO_WARNINGS”定义
+f:\c++网络编程\day17( 多线程经典设计模式)\hellosocket\easytcpserver\EasyTcpServer.hpp(73): warning C4244: “return”: 从“SOCKET”转换到“int”，可能丢失数据
+f:\c++网络编程\day17( 多线程经典设计模式)\hellosocket\easytcpserver\EasyTcpServer.hpp(112): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“SOCKET”
+  f:\c++网络编程\day17( 多线程经典设计模式)\hellosocket\easytcpserver\EasyTcpServer.hpp(112): note: 请考虑在格式字符串中使用“%lld”
+  f:\c++网络编程\day17( 多线程经典设计模式)\hellosocket\easytcpserver\EasyTcpServer.hpp(112): note: 请考虑在格式字符串中使用“%Id”
+  f:\c++网络编程\day17( 多线程经典设计模式)\hellosocket\easytcpserver\EasyTcpServer.hpp(112): note: 请考虑在格式字符串中使用“%I64d”
+f:\c++网络编程\day17( 多线程经典设计模式)\hellosocket\easytcpserver\EasyTcpServer.hpp(200): warning C4244: “return”: 从“SOCKET”转换到“int”，可能丢失数据
+f:\c++网络编程\day17( 多线程经典设计模式)\hellosocket\easytcpserver\EasyTcpServer.hpp(258): warning C4244: “参数”: 从“SOCKET”转换到“int”，可能丢失数据
+f:\c++网络编程\day17( 多线程经典设计模式)\hellosocket\easytcpserver\EasyTcpServer.hpp(264): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“SOCKET”
+  f:\c++网络编程\day17( 多线程经典设计模式)\hellosocket\easytcpserver\EasyTcpServer.hpp(264): note: 请考虑在格式字符串中使用“%lld”
+  f:\c++网络编程\day17( 多线程经典设计模式)\hellosocket\easytcpserver\EasyTcpServer.hpp(264): note: 请考虑在格式字符串中使用“%Id”
+  f:\c++网络编程\day17( 多线程经典设计模式)\hellosocket\easytcpserver\EasyTcpServer.hpp(264): note: 请考虑在格式字符串中使用“%I64d”
+f:\c++网络编程\day17( 多线程经典设计模式)\hellosocket\easytcpserver\EasyTcpServer.hpp(312): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“SOCKET”
+  f:\c++网络编程\day17( 多线程经典设计模式)\hellosocket\easytcpserver\EasyTcpServer.hpp(312): note: 请考虑在格式字符串中使用“%lld”
+  f:\c++网络编程\day17( 多线程经典设计模式)\hellosocket\easytcpserver\EasyTcpServer.hpp(312): note: 请考虑在格式字符串中使用“%Id”
+  f:\c++网络编程\day17( 多线程经典设计模式)\hellosocket\easytcpserver\EasyTcpServer.hpp(312): note: 请考虑在格式字符串中使用“%I64d”
+f:\c++网络编程\day17( 多线程经典设计模式)\hellosocket\easytcpserver\EasyTcpServer.hpp(354): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“SOCKET”
+  f:\c++网络编程\day17( 多线程经典设计模式)\hellosocket\easytcpserver\EasyTcpServer.hpp(354): note: 请考虑在格式字符串中使用“%lld”
+  f:\c++网络编程\day17( 多线程经典设计模式)\hellosocket\easytcpserver\EasyTcpServer.hpp(354): note: 请考虑在格式字符串中使用“%Id”
+  f:\c++网络编程\day17( 多线程经典设计模式)\hellosocket\easytcpserver\EasyTcpServer.hpp(354): note: 请考虑在格式字符串中使用“%I64d”
+f:\c++网络编程\day17( 多线程经典设计模式)\hellosocket\easytcpserver\EasyTcpServer.hpp(354): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 3 拥有了类型“unsigned __int64”
+  f:\c++网络编程\day17( 多线程经典设计模式)\hellosocket\easytcpserver\EasyTcpServer.hpp(354): note: 请考虑在格式字符串中使用“%zd”
+f:\c++网络编程\day17( 多线程经典设计模式)\hellosocket\easytcpserver\EasyTcpServer.hpp(381): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“SOCKET”
+  f:\c++网络编程\day17( 多线程经典设计模式)\hellosocket\easytcpserver\EasyTcpServer.hpp(381): note: 请考虑在格式字符串中使用“%lld”
+  f:\c++网络编程\day17( 多线程经典设计模式)\hellosocket\easytcpserver\EasyTcpServer.hpp(381): note: 请考虑在格式字符串中使用“%Id”
+  f:\c++网络编程\day17( 多线程经典设计模式)\hellosocket\easytcpserver\EasyTcpServer.hpp(381): note: 请考虑在格式字符串中使用“%I64d”
+  正在生成代码
+  All 190 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  EasyTcpServer.vcxproj -> F:\C++网络编程\day17( 多线程经典设计模式)\HelloSocket\../bin/x64/Release\EasyTcpServer.exe
+  EasyTcpServer.vcxproj -> F:\C++网络编程\day17( 多线程经典设计模式)\HelloSocket\../bin/x64/Release\EasyTcpServer.pdb (Full PDB)
