@@ -4,7 +4,7 @@ c++
 
 这个库中包含了更加具体详细的c++linux后台学习资料和项目：主要以实战为主
 
-https://github.com/jacob-zjj/LinuxSocket_cplus
+https://github.com/jacob-zjj/LinuxSocket_Cplus
 
 
 
