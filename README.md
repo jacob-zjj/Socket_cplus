@@ -2,9 +2,9 @@
 c++
 千万级高并发网络通信(Socket协议，跨平台全栈开发)
 
-这个库中包含了更加具体详细的c++linux后台学习资料和项目：主要以实战为主
+请参考我的另外一个Linux网络编程库，该库中包含了更加具体详细的c++linux后台学习资料和项目：主要以实战为主，其中包括了实际的高并发静态网络服务器项目
 
-https://github.com/jacob-zjj/LinuxSocket_Cplus
+     https://github.com/jacob-zjj/LinuxSocket_Cplus
 
 
 
